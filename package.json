@@ -1,0 +1,14 @@
+{
+  "name": "SQA Report App",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "base64-js": "^1.5.1",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.2.7",
+    "open": "^8.4.0",
+    "yargs": "^17.5.1"
+  }
+}
