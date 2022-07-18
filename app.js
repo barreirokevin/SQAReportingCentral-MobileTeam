@@ -20,11 +20,6 @@ const argv = yargs
             describe: 'A-Team board ID (located in Jira URL)',
             demand: true,
             alias: 'b'
-        },
-        activesprintid: {
-            describe: 'Sprint ID for the Active Sprint (located in Jira URL)',
-            demand: true,
-            alias: 'a'
         }
     })
     .help()
@@ -33,11 +28,10 @@ let command = argv._[0];
 
 if (command == 'report') {
     console.log(`Constructing report . . .`);
-    // username: "kevinbarreirooo729@gmail.com"
-    // password: "eSyJ0ozlw7X3kNEea2xwA69E"
-    // board id = 1
-    // sprint id = 1
-    report.getReport(argv.boardid, argv.activesprintid, argv.username, argv.apikey);
+    // username: "kevin.barreiro@arthrex.com"
+    // password: "j7bkb3IQYSiaFJ5sHa8D02E9"
+    // board id (A-Team bopard id) = 286
+    report.getReport(argv.boardid, argv.username, argv.apikey);
 } else {
     console.log('Command not recognized');
 }

@@ -1,0 +1,58 @@
+A Team: 7/18/22 - 7/22/22
+MOB-929 24 subtasks UX/UI
+MOB-1056 0 subtasks Rep app PPTX stuff 
+MOB-1066 0 subtasks Onsite Testflight Beta for Naples Agency 7/6
+MOB-1053 0 subtasks Things to test document for Beta
+MOB-1065 0 subtasks Send Out Early Access Email
+MOB-811 0 subtasks Discover Feed Exploration
+MOB-854 0 subtasks Rep APP Logo
+MOB-960 0 subtasks Arthrex.com Space for Download 
+MOB-992 0 subtasks Beta Feedback Work
+MOB-1014 0 subtasks MRM Assets for the REP App
+MOB-1033 0 subtasks Additional on boarding screen/view 
+MOB-930 0 subtasks App Store Requirements 
+MOB-954 0 subtasks Future state visuals for App Store Images
+MOB-1067 0 subtasks Craft Early Access Email for Gotham 
+MOB-1052 0 subtasks Post Early Access Survey for Gotham Beta send out the 19th 
+MOB-1051 0 subtasks How to get access to the App Document IOS & Andriod Full Launch
+MOB-957 0 subtasks Post-MVP UI Rep app Arthrex-com Salesforce Content
+MOB-958 0 subtasks Replacement online form via Marketing Cloud
+MOB-993 0 subtasks Taxonomy Filters
+MOB-990 0 subtasks Privacy Policy in the Settings
+MOB-932 0 subtasks Loading Screen 
+MOB-913 0 subtasks Re-create Nav Bar with Rep app logo
+MOB-956 0 subtasks Return to the Surgeon App once they are inside the Rep App
+MOB-955 0 subtasks Surgeon App announcement banner
+MOB-959 0 subtasks Sales Summit Material
+MOB-1010 1 subtasks DEV: Setup Mac Mini GitHub Actions Runner
+MOB-1072 0 subtasks Development
+
+A Team: 7/18/22 - 7/22/22
+AMOBS-431 1 subtasks DEV: Setup Authentication in BELLA 
+AMOBS-461 0 subtasks Development
+AMOBS-284 2 subtasks SQA Regression - AMOBS Release 1.0.0
+AMOBS-462 0 subtasks SQA Regression
+AMOBS-463 0 subtasks DEV Regression
+AMOBS-447 2 subtasks BELLA Should only return Resources available to the user (Exceptions)
+AMOBS-459 0 subtasks Development
+AMOBS-460 0 subtasks SQA: Verify (iOS & Android)
+AMOBS-465 2 subtasks DEV: Investigate Playbook Worker Updates Not seen in App
+AMOBS-470 0 subtasks Investigate
+AMOBS-471 0 subtasks Resolve / Create additional Ticket
+
+A Team: 7/18/22 - 7/22/22
+RAI-31 3 subtasks Rep App Localization iOS
+RAI-173 0 subtasks “Read More” , "Back" text to be revised in PBI
+RAI-652 0 subtasks Development
+RAI-653 0 subtasks SQA: Verify
+RAI-295 3 subtasks Analytics iOS
+RAI-640 0 subtasks Document
+RAI-641 0 subtasks Development
+RAI-642 0 subtasks SQA: Verify
+RAI-643 2 subtasks Rep Apps use new mobile.mmprod.arthrex.io API URL (iOS & Android)
+RAI-650 0 subtasks Development
+RAI-651 0 subtasks SQA: Verify
+
+A Team: 7/18/22 - 7/22/22
+SURG-6328 2 subtasks Get Button shows Rep App Private App Store Listing
+
