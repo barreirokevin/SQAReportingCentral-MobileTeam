@@ -63,27 +63,47 @@ function constructReport() {
     let activeSprintMetaData = JSON.parse(fs.readFileSync('./data/activeSprintMetaData.json'));
     let activeSprintIssuesData = JSON.parse(fs.readFileSync('./data/activeSprintIssuesData.json'));
     let activeSprintName = activeSprintMetaData.values[0].name;
-    let issuesData = {}; // Contains the data needed for the report
-    activeSprintIssuesData.issues.forEach(issue => {
-        // create issuesData object properties
-        if (!(issue.fields.project.key in issuesData)) {
-            issuesData[issue.fields.project.key] = [];
-        }
+    var issuesData = {}; // Contains the data needed for the report
 
-        // insert issue data into issuesData object
-        issuesData[issue.fields.project.key].push(`${issue.key} ${issue.fields.subtasks.length} subtasks ${issue.fields.summary}`);
+    // populate issuesData with project id's as keys
+    activeSprintIssuesData.issues.forEach(issue => {
+        issuesData[issue.fields.project.key] = [];
+    });
+
+    // populate each project id with ticket data
+    activeSprintIssuesData.issues.forEach(issue => {
+        let parentData = issue.fields.parent;
+
+        if (parentData !== undefined) { 
+            let issueData = `${parentData.key} ${parentData.fields.summary}`;
+            Object.keys(issuesData).forEach(projectId => {
+                if (parentData.key.includes(projectId)) {
+                    issuesData[projectId].push(issueData);
+                }
+            });
+        }
+    });
+
+    Object.keys(issuesData).forEach(projectId => {
+        // remove duplicate ticket data
+        issuesData[projectId] = new Set(issuesData[projectId]);
+// TODO: remove ticket data with "DEV:" 
     });
     
     // Construct the SQA report text file with the relevant data
     let reportPath = './reports/SQAReport.txt';
     fs.writeFileSync(reportPath, ''); // create the initial report .txt file
-    for (let key in issuesData) {
+    Object.keys(issuesData).forEach(projectId => {
+        // write the active sprint name and date to the file
         fs.writeFileSync(reportPath, `${activeSprintName}\n`, { flag: 'a' });
-        issuesData[key].forEach(issue => fs.writeFileSync(reportPath, `${issue}\n`, { flag: 'a' }));
+        // write each ticket to the file
+        issuesData[projectId].forEach(ticket => {
+            fs.writeFileSync(reportPath, `${ticket}\n`, { flag: 'a' });
+        });
         fs.writeFileSync(reportPath, '\n', { flag: 'a' });
-    }
+    });
     
-    console.log('The report was constructed successfully!')
+    console.log('The report was constructed successfully!');
 }
 
 async function getReport(boardId, user, apiKey) {
@@ -100,7 +120,7 @@ async function getReport(boardId, user, apiKey) {
     constructReport();
 
     // Open the SQA report GUI
-    open('./reports/SQAReport.txt')
+    open('./reports/SQAReport.txt');
 }
 
 module.exports = {
