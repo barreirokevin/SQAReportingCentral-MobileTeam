@@ -1,0 +1,63 @@
+A Team: 8/1/22 - 8/5/22
+MOB-929 UX/UI
+MOB-1056 Rep app PPTX stuff 
+MOB-1066 Onsite Testflight Beta for Naples Agency 7/6
+MOB-1053 Things to test document for Beta
+MOB-1065 Send Out Early Access Email
+MOB-811 Discover Feed Exploration
+MOB-854 Rep APP Logo
+MOB-960 Arthrex.com Space for Download 
+MOB-992 Beta Feedback Work
+MOB-1014 MRM Assets for the REP App
+MOB-1033 Additional on boarding screen/view 
+MOB-930 App Store Requirements 
+MOB-954 Future state visuals for App Store Images
+MOB-1067 Craft Early Access Email for Gotham 
+MOB-1052 Post Early Access Survey for Gotham Beta
+MOB-1051 How to get access to the App Document IOS & Andriod Full Launch
+MOB-957 Post-MVP UI Rep app Arthrex-com Salesforce Content
+MOB-958 Replacement online form via Marketing Cloud
+MOB-993 Taxonomy Filters
+MOB-990 Privacy Policy in the Settings
+MOB-932 Loading Screen 
+MOB-913 Re-create Nav Bar with Rep app logo
+MOB-956 Return to the Surgeon App once they are inside the Rep App
+MOB-955 Surgeon App announcement banner
+MOB-959 Sales Summit Material
+
+A Team: 8/1/22 - 8/5/22
+RAI-753 Release Rep App v1.1.1 - MVP Hot fix (iOS)
+RAI-754 CLONE -  Submit for Apple Review
+RAI-755 CLONE -  Screenshots
+RAI-756 CLONE -  Metadata
+RAI-757 CLONE -  Release in App Store
+RAI-758 CLONE -  Tag in GitHub
+RAI-759 CLONE -  SQA: Smoke Test
+RAI-760 CLONE -  Update Privacy Policy Link in App Store Listing
+RAI-761 CLONE -  Submit RFC
+RAI-737 Analytic iOS: Login with Arthex.com event not registered
+RAI-768 SQA: Verify
+RAI-771 Single character spans not working
+RAI-773 SQA: Verify iOS & Android
+
+A Team: 8/1/22 - 8/5/22
+SURG-6342 Post Release Tasks: SURG 2.34.0
+SURG-6343 Release App in Store (after approval)
+SURG-6344 SQA: Smoke test in production
+SURG-6345 SQA: Verify the app in other platform (Android/iOS)
+SURG-6346 Update repository
+SURG-6347 Update arthrex.com mobile apps page
+SURG-6405 SQA: Verify Podcast Thumbnails on QA after A.com API changes 
+SURG-6406 SQA: Verify
+
+A Team: 8/1/22 - 8/5/22
+AMOBS-474 Use Prod ACOM Resources for all Kontent Playbooks Envs
+AMOBS-475 PDF assets are not loading in QA
+AMOBS-476 Update Sandbox
+AMOBS-499 Bella ENV Vars
+AMOBS-500 Update QA 
+AMOBS-502 QA: Verify 
+AMOBS-442 Playbook Worker sends Email Notification on Published/Unpublished Updates 
+AMOBS-444 SQA: Verify
+AMOBS-445 Setup SES
+

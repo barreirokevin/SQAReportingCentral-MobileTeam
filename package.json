@@ -14,6 +14,6 @@
     "yargs": "^17.5.1"
   },
   "scripts": {
-    "report": "node app report --username='kevin.barreiro@arthrex.com' --apikey='HGzswtEaXuxG9TiuI6EvA121' --boardid=286"
+    "report": "node app report --username=\"kevin.barreiro@arthrex.com\" --apikey=\"HGzswtEaXuxG9TiuI6EvA121\" --boardid=286"
   }
 }

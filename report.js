@@ -21,6 +21,7 @@ function fetchActiveSprintMetaDataFor(boardId, encodedAuth) {
         })
         .then((response) => {
             let data = JSON.stringify(response.data);
+            console.log(data);
             fs.writeFileSync('./data/activeSprintMetaData.json', data, error => {
                 if (error) {
                     console.log(error);
@@ -119,15 +120,15 @@ function cleanData(data, filters) {
     }
 }
 
-function getReport(boardId, user, apiKey, filters) {
+async function getReport(boardId, user, apiKey, filters) {
     // Encode authentication to Base64
     let authCreds = encodeAuthorization(user, apiKey);
 
     // Get active sprint metadata
-    fetchActiveSprintMetaDataFor(boardId, authCreds);
+    await fetchActiveSprintMetaDataFor(boardId, authCreds);
 
     // Get active sprint issues data
-    fetchActiveSprintIssuesDataFor(boardId, authCreds);
+    await fetchActiveSprintIssuesDataFor(boardId, authCreds);
 
     // Construct the SQA report
     constructReport(filters);
