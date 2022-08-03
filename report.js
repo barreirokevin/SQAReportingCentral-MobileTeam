@@ -82,7 +82,6 @@ function constructReport(filters) {
 
     // clean the data in the issuesData object
     issuesData = cleanData(issuesData, filters);
-    console.log(issuesData);
 
     // Construct the SQA report text file with the data in the issuesData object
     let reportPath = './reports/SQAReport.txt';
