@@ -21,7 +21,6 @@ function fetchActiveSprintMetaDataFor(boardId, encodedAuth) {
         })
         .then((response) => {
             let data = JSON.stringify(response.data);
-            console.log(data);
             fs.writeFileSync('./data/activeSprintMetaData.json', data, error => {
                 if (error) {
                     console.log(error);
