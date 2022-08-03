@@ -9,9 +9,11 @@
     "lodash": "^4.17.21",
     "node-fetch": "^3.2.7",
     "open": "^8.4.0",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0",
     "yargs": "^17.5.1"
   },
   "scripts": {
-    "report": "node app report --username=\"kevin.barreiro@arthrex.com\" --apikey=\"j7bkb3IQYSiaFJ5sHa8D02E9\" --boardid=286"
+    "report": "node app report --username='kevin.barreiro@arthrex.com' --apikey='j7bkb3IQYSiaFJ5sHa8D02E9' --boardid=286"
   }
 }

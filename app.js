@@ -2,6 +2,7 @@ const fs = require('fs');
 const _ = require('lodash');
 const { demand } = require('yargs');
 const yargs = require('yargs');
+const prompt = require('prompt-sync')({sigint: true});
 const report = require('./report');
 
 const argv = yargs
@@ -27,11 +28,11 @@ const argv = yargs
 let command = argv._[0];
 
 if (command == 'report') {
+    // filter out any tickets containing the values in the filters list
+    let filters = ["DEV:", "Development"];
+    // construct the SQA report
     console.log(`Constructing report . . .`);
-    // username: "kevin.barreiro@arthrex.com"
-    // password: "j7bkb3IQYSiaFJ5sHa8D02E9"
-    // board id (A-Team bopard id) = 286
-    report.getReport(argv.boardid, argv.username, argv.apikey);
+    report.getReport(argv.boardid, argv.username, argv.apikey, filters);
 } else {
     console.log('Command not recognized');
 }
