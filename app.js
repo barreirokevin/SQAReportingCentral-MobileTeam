@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const yargs = require('yargs');
-const report = require('./report');
+const reportService = require('./reportService');
 const login = require("./login_credentials.json");
 
 const argv = yargs
@@ -20,7 +20,7 @@ if (command == 'report') {
     let filters = [];
     // construct the SQA report
     console.log(`Constructing report . . .`);
-    report.getReport(argv.boardid, login.user, login.key, filters);
+    reportService.getReport(argv.boardid, login.user, login.key, filters);
 } else {
     console.log('Command not recognized');
 }
