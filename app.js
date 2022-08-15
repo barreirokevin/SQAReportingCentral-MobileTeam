@@ -1,22 +1,10 @@
-const fs = require('fs');
 const _ = require('lodash');
-const { demand } = require('yargs');
 const yargs = require('yargs');
-const prompt = require('prompt-sync')({sigint: true});
 const report = require('./report');
+const login = require("./login_credentials.json");
 
 const argv = yargs
     .command('report', 'Construct the SQA report', {
-        username: {
-            describe: 'Username for Jira',
-            demand: true,
-            alias: 'u'
-        },
-        apikey: {
-            describe: 'Jira API key (located in Jira settings)',
-            demand: true,
-            alias: 'k'
-        },
         boardid: {
             describe: 'A-Team board ID (located in Jira URL)',
             demand: true,
@@ -32,7 +20,7 @@ if (command == 'report') {
     let filters = [];
     // construct the SQA report
     console.log(`Constructing report . . .`);
-    report.getReport(argv.boardid, argv.username, argv.apikey, filters);
+    report.getReport(argv.boardid, login.user, login.key, filters);
 } else {
     console.log('Command not recognized');
 }
