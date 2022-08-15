@@ -1,63 +1,62 @@
-A Team: 8/1/22 - 8/5/22
-MOB-929 UX/UI
-MOB-1056 Rep app PPTX stuff 
-MOB-1066 Onsite Testflight Beta for Naples Agency 7/6
-MOB-1053 Things to test document for Beta
-MOB-1065 Send Out Early Access Email
+A Team: 8/15/22 - 8/19/22
+MOB-1077 UX/UI Post Rep App MVP
+MOB-1086 Design to show Unpublished/Published Playbooks on List View
 MOB-811 Discover Feed Exploration
-MOB-854 Rep APP Logo
-MOB-960 Arthrex.com Space for Download 
-MOB-992 Beta Feedback Work
-MOB-1014 MRM Assets for the REP App
-MOB-1033 Additional on boarding screen/view 
-MOB-930 App Store Requirements 
-MOB-954 Future state visuals for App Store Images
-MOB-1067 Craft Early Access Email for Gotham 
-MOB-1052 Post Early Access Survey for Gotham Beta
-MOB-1051 How to get access to the App Document IOS & Andriod Full Launch
 MOB-957 Post-MVP UI Rep app Arthrex-com Salesforce Content
+MOB-1079 Sync Content Button show last time updated or confirmation
+MOB-1084 Prompts User if Update Design
+MOB-1078 Create Filter for Playbooks List for Product Taxonomy
 MOB-958 Replacement online form via Marketing Cloud
-MOB-993 Taxonomy Filters
-MOB-990 Privacy Policy in the Settings
-MOB-932 Loading Screen 
-MOB-913 Re-create Nav Bar with Rep app logo
-MOB-956 Return to the Surgeon App once they are inside the Rep App
-MOB-955 Surgeon App announcement banner
-MOB-959 Sales Summit Material
+MOB-1087 Langue Filter (to change localized language in settings page) 
 
-A Team: 8/1/22 - 8/5/22
-RAI-753 Release Rep App v1.1.1 - MVP Hot fix (iOS)
-RAI-754 CLONE -  Submit for Apple Review
-RAI-755 CLONE -  Screenshots
-RAI-756 CLONE -  Metadata
-RAI-757 CLONE -  Release in App Store
-RAI-758 CLONE -  Tag in GitHub
-RAI-759 CLONE -  SQA: Smoke Test
-RAI-760 CLONE -  Update Privacy Policy Link in App Store Listing
-RAI-761 CLONE -  Submit RFC
-RAI-737 Analytic iOS: Login with Arthex.com event not registered
-RAI-768 SQA: Verify
-RAI-771 Single character spans not working
-RAI-773 SQA: Verify iOS & Android
+A Team: 8/15/22 - 8/19/22
+AMOBS-541 Image Factory should throw error if AspectRatio is Invalid (negative #) 
+AMOBS-547 Development
+AMOBS-548 SQA: Verify
+AMOBS-506 SQA Regression: AMOBS v1.2.0
+AMOBS-519 SQA: Regression Test
+AMOBS-520 DEV: Regression Test
+AMOBS-546 DEV: Create Release branch and Deploy QA
+AMOBS-503 Release Arthrex Mobile Services v1.2.0
+AMOBS-516 Release AMOBS v1.2.0
+AMOBS-517 Smoke Test Rep Apps (iOS and Android)
+AMOBS-518 Tag Release in GitHub
+AMOBS-545 DEV: Manually DELETE unpublished/draft playbooks after Release
+AMOBS-549 DEV: Document Release Plan
 
-A Team: 8/1/22 - 8/5/22
-SURG-6342 Post Release Tasks: SURG 2.34.0
-SURG-6343 Release App in Store (after approval)
-SURG-6344 SQA: Smoke test in production
-SURG-6345 SQA: Verify the app in other platform (Android/iOS)
-SURG-6346 Update repository
-SURG-6347 Update arthrex.com mobile apps page
-SURG-6405 SQA: Verify Podcast Thumbnails on QA after A.com API changes 
-SURG-6406 SQA: Verify
+A Team: 8/15/22 - 8/19/22
+SURG-6364 Sales Resource - Competitor Documents
+SURG-6375 Development
+SURG-6376 SQA: Verify
+SURG-6396 SQA Regression: SURG 2.35.0
+SURG-6400 DEV: Create regression build
+SURG-6397 SQA: Run manual regression tests
+SURG-6398 SQA: Run automated regression tests
+SURG-6399 SQA: Add test documentation
+SURG-6383 Pre Release Tasks: SURG 2.35.0
+SURG-6384 Release Notes
+SURG-6385 Screens for Store
+SURG-6386 App Store Meta Data changes
+SURG-6387 Submit to Store for Review
+SURG-6388 MRM approvals (release notes and screens)
+SURG-6389 Submit RFC
 
-A Team: 8/1/22 - 8/5/22
-AMOBS-474 Use Prod ACOM Resources for all Kontent Playbooks Envs
-AMOBS-475 PDF assets are not loading in QA
-AMOBS-476 Update Sandbox
-AMOBS-499 Bella ENV Vars
-AMOBS-500 Update QA 
-AMOBS-502 QA: Verify 
-AMOBS-442 Playbook Worker sends Email Notification on Published/Unpublished Updates 
-AMOBS-444 SQA: Verify
-AMOBS-445 Setup SES
+A Team: 8/15/22 - 8/19/22
+RAI-697 Ordered List with ~20 List Items in Kontent Randomly adds Line Breaks
+RAI-868 Development
+RAI-869 SQA: Verify
+RAI-196 Fix Crashlytics for Prod/QA Envs (iOS)
+RAI-870 Development
+
+A Team: 8/15/22 - 8/19/22
+RAA-68 Analytics Android - Rep App Phase 1
+RAA-280 Development
+RAA-281 SQA: Verify
+RAA-247 Image Component Fixes (Padding and Caption insets)
+RAA-250 Development
+RAA-251 SQA: Verify
+RAA-335 Dev: KMM Efforts for New App Version is Available Alerts
+RAA-339 Development
+RAA-21 Setup Crashlytics for Android
+RAA-340 Development
 

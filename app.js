@@ -29,7 +29,7 @@ let command = argv._[0];
 
 if (command == 'report') {
     // filter out any tickets containing the values in the filters list
-    let filters = ["DEV:", "Development"];
+    let filters = [];
     // construct the SQA report
     console.log(`Constructing report . . .`);
     report.getReport(argv.boardid, argv.username, argv.apikey, filters);
