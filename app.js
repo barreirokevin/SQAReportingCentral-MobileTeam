@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const yargs = require('yargs');
 const reportService = require('./reportService');
-const login = require("./login_credentials.json");
+const login = require("./loginCredentials.json");
 
 const argv = yargs
     .command('report', 'Construct the SQA report', {
