@@ -2,9 +2,16 @@
 1. On the Terminal, go to the project directory.
 2. Execute `git pull` to get the latest code.  
 3. Execute `npm install` to get all the dependencies.
-4. Set the proper credentials in the `login_credentials.json` file
-5. If necessary, set the proper `boardId` in the `package.json` file
-6. Execute `npm run report` to get the SQA report.
+4. Create a file called `loginCredentials.json` and place your Jira credentials inside that file in the following manner:
+
+    {
+        "user": "".
+        "key": ""
+    }
+
+5. Set the proper credentials in the `login_credentials.json` file
+6. If necessary, set the proper `boardId` in the `package.json` file
+7. Execute `npm run report` to get the SQA report.
 
 ## Notes:
 - If you would like to filter out certain tickets from the report:

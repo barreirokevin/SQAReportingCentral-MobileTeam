@@ -14,9 +14,9 @@ AMOBS-541 Image Factory should throw error if AspectRatio is Invalid (negative #
 AMOBS-547 Development
 AMOBS-548 SQA: Verify
 AMOBS-506 SQA Regression: AMOBS v1.2.0
+AMOBS-546 DEV: Create Release branch and Deploy QA
 AMOBS-519 SQA: Regression Test
 AMOBS-520 DEV: Regression Test
-AMOBS-546 DEV: Create Release branch and Deploy QA
 AMOBS-503 Release Arthrex Mobile Services v1.2.0
 AMOBS-516 Release AMOBS v1.2.0
 AMOBS-517 Smoke Test Rep Apps (iOS and Android)
