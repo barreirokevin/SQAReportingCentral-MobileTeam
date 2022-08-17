@@ -3,13 +3,13 @@
 2. Execute `git pull` to get the latest code.  
 3. Execute `npm install` to get all the dependencies.
 4. Create a file called `loginCredentials.json` and place your Jira credentials inside that file in the following manner:
-
+    ```
     {
         "user": "".
         "key": ""
     }
-
-5. Set the proper credentials in the `login_credentials.json` file
+    ```
+5. NOTE: The key is an API key you can get from your Jira account settings.
 6. If necessary, set the proper `boardId` in the `package.json` file
 7. Execute `npm run report` to get the SQA report.
 
